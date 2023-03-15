@@ -1133,3 +1133,9 @@ footer .last-footer .thenav-container .navbar .navbar-brand:hover {
     left: 4px  !important;
   }
 }
+
+@media (max-width: 576px) {
+  .left-sub-number {
+    display: none !important;
+  }
+}
