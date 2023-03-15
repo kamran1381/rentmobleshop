@@ -1072,7 +1072,7 @@ footer .last-footer .thenav-container .navbar .navbar-brand:hover {
     font-size: 22px !important;
   }
   .box-1 p {
-    font-size: 16px !important;
+    font-size: 13px !important;
   }
   .middle-nav .telephone-nav-container #call-info-icon img {
     width: 30px !important;
@@ -1110,7 +1110,7 @@ footer .last-footer .thenav-container .navbar .navbar-brand:hover {
             justify-content: center;
   }
   .footer-content {
-    height: 1200px !important;
+    height: 1400px !important;
   }
   .last-footer {
     display: none;
@@ -1130,6 +1130,6 @@ footer .last-footer .thenav-container .navbar .navbar-brand:hover {
   .left-corner-top {
     position: relative !important;
     top: 70px !important;
-    left: 90px !important;
+    left: 4px  !important;
   }
 }
