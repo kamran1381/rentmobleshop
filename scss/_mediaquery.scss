@@ -1,0 +1,123 @@
+@media(max-width:1400px){
+   .secrect-nav {
+     .nav-link{
+        font-size: 15px !important;
+     }
+     form input{
+        width: 240px;
+     }
+   }
+}
+
+@media(max-width : 1200px){
+
+    .secrect-nav {
+     
+        .nav-link{
+           font-size: 11px !important;
+
+        }
+        form input{
+           width: 200px !important;
+        }
+
+        form button{
+            width: 70px !important;
+            font-size: 16px;
+        }
+      }  
+      
+
+      .box-1{
+           h2{
+            font-size: 22px !important;
+           }
+           p{
+            font-size: 16px !important;
+           }
+      }
+      
+      .middle-nav {
+        .telephone-nav-container{
+            #call-info-icon img{
+                width: 30px !important;
+            }
+            .number-nav , .number-nav{
+                font-size: 15px !important;
+            }
+        }
+
+      
+      }
+
+       .luxury-container{
+
+        .card-body{
+            .right-side-text h4{
+             font-size: 18px !important;
+            }
+        }
+       }
+
+       .thenav-container .nav-link , .navbar-brand{
+        font-size: 14px !important;
+       }
+    //    .about-us-footer{
+          
+    //    }
+}
+
+
+@media(max-width: 992px){
+    .secrect-nav{
+        display: none;
+    }
+    .img-1 img{
+        width: 166px !important;
+    }
+
+    .img-2 img {
+        width: 98px !important;
+    }
+    .box-1{
+        height: 210px !important;
+    } 
+
+    .customer-pic{
+       display: flex;
+       justify-content: center;
+    }
+
+    .footer-content{
+        height: 1200px !important;
+     }
+    
+     .last-footer{
+        display: none;
+     }
+}
+
+@media (min-width : 992px){
+    .main-nav{
+        display: none;
+    }
+
+}
+
+
+@media(max-width: 768px){
+ .telephone-nav-container{
+    display: none !important;
+ }   
+
+ .left-corner-top{
+    position: relative !important;
+    top: 70px !important;
+    left: 90px !important;
+ }
+
+
+}
+
+
+
