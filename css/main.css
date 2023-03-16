@@ -180,6 +180,7 @@ header .nav-section .main-nav .toggler {
   position: absolute;
   top: 40px;
   right: 250px;
+  z-index: 600;
 }
 
 header .nav-section .main-nav .nav-item {
@@ -463,10 +464,6 @@ main .btn-dark {
 }
 
 main .luxury-apartment .luxury-container {
-  -ms-grid-columns: (12px)[3];
-      grid-template-columns: repeat(3, 12px);
-  -ms-grid-rows: (auto)[3];
-      grid-template-rows: repeat(3, auto);
   padding: 10vmin 20vmin;
 }
 
@@ -789,12 +786,14 @@ main .latest-traveling-news .news-slider {
 
 main .latest-traveling-news .news-slider .swiper .swiper-wrapper .first-lol {
   margin-right: 10px;
-  width: 33.3% !important;
+  width: 33.3%;
   height: 400px;
   background-image: url("../images/New folder/news-slider/909cad51a01f495d8210d8bb3ef274ae.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   position: relative;
 }
 
@@ -815,7 +814,7 @@ main .latest-traveling-news .news-slider .swiper .swiper-wrapper .first-lol .sli
 
 main .latest-traveling-news .news-slider .swiper .swiper-wrapper .second-lol {
   margin-right: 10px;
-  width: 33.3% !important;
+  width: 33.3%;
   height: 400px;
   background-image: url("../images/New folder/news-slider/2.jpg");
   background-repeat: no-repeat;
@@ -841,7 +840,7 @@ main .latest-traveling-news .news-slider .swiper .swiper-wrapper .second-lol .sl
 
 main .latest-traveling-news .news-slider .swiper .swiper-wrapper .third-lol {
   margin-right: 10px;
-  width: 33.3% !important;
+  width: 33.3%;
   height: 400px;
   background-image: url("../images/New folder/news-slider/5.jpg");
   background-repeat: no-repeat;
@@ -885,7 +884,6 @@ footer {
 }
 
 footer .footer-content {
-  width: 100%;
   height: 680px;
   background-color: #070812;
   direction: rtl;
@@ -1080,6 +1078,12 @@ footer .last-footer .thenav-container .navbar .navbar-brand:hover {
   .middle-nav .telephone-nav-container .number-nav, .middle-nav .telephone-nav-container .number-nav {
     font-size: 15px !important;
   }
+  .luxury-container {
+    padding: 0 !important;
+  }
+  .luxury-container .card {
+    height: 530px !important;
+  }
   .luxury-container .card-body .right-side-text h4 {
     font-size: 18px !important;
   }
@@ -1135,7 +1139,79 @@ footer .last-footer .thenav-container .navbar .navbar-brand:hover {
 }
 
 @media (max-width: 576px) {
+  .header-background {
+    margin: 0 !important;
+    width: 100% !important;
+    padding: 0 !important;
+    background-size: auto !important;
+  }
   .left-sub-number {
     display: none !important;
+  }
+  .left-side-slider {
+    margin: 0 !important;
+  }
+  .slider-container {
+    width: 100% !important;
+  }
+  .contact-heading {
+    width: 100% !important;
+    margin-top: 20px !important;
+    overflow: hidden;
+  }
+  .contact-heading h2 {
+    font-size: 24px !important;
+  }
+  .contact-heading .p-heading-last {
+    font-size: 17px !important;
+  }
+  .guidance-feature h3 {
+    font-size: 24px !important;
+  }
+  .guidance-feature b {
+    font-size: 21px !important;
+  }
+  .About-us-text, .about-us-photo {
+    margin: 0 !important;
+  }
+  .luxury-headiing {
+    margin-top: 20px;
+  }
+  .swiper {
+    width: 100% !important;
+  }
+  .latest-traveling-news {
+    margin-top: 100px !important;
+  }
+  .news-slider {
+    width: 100% !important;
+    margin: 0 !important;
+  }
+  .news-slider .first-lol, .news-slider .second-lol, .news-slider .third-lol {
+    width: 100% !important;
+    margin: 10px !important;
+  }
+  .news-slider .swiper-slide {
+    width: 420px !important;
+  }
+  .contact-us-footer, .about-us-footer {
+    text-align: unset !important;
+    padding: 0 !important;
+  }
+  .contact-us-footer h3, .about-us-footer h3 {
+    padding: 0;
+    text-align: unset !important;
+  }
+  .contact-us-footer .short-line, .about-us-footer .short-line {
+    display: none;
+  }
+  .footer-p-about {
+    width: 100% !important;
+  }
+  .ask-quesstions-footer {
+    text-align: unset !important;
+  }
+  .ask-quesstions-footer .footer-form input {
+    width: 100% !important;
   }
 }

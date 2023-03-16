@@ -51,7 +51,10 @@
       }
 
        .luxury-container{
-
+         padding: 0 !important;
+         .card{
+            height: 530px !important;
+         }
         .card-body{
             .right-side-text h4{
              font-size: 18px !important;
@@ -122,7 +125,87 @@
 
 
 @media(max-width: 576px){
+  .header-background {
+   margin: 0 !important;
+   width: 100% !important;
+   padding: 0 !important;
+   background-size: auto !important;
+  }
   .left-sub-number  {
     display: none !important;
   }
+.left-side-slider {
+    margin: 0 !important;
+}
+  .slider-container {
+    width: 100% !important;
+  }
+
+  .contact-heading{
+    width: 100% !important; 
+    margin-top: 20px !important;
+    overflow: hidden;
+     h2{
+        font-size: 24px !important ;
+     }
+     .p-heading-last{
+        font-size: 17px !important;
+     }
+  }
+
+  .guidance-feature{
+    h3{
+        font-size: 24px !important;
+    }
+    b{
+        font-size: 21px !important;
+    }
+  }
+
+  .About-us-text , .about-us-photo {
+    margin: 0 !important;
+  }
+  .luxury-headiing{
+    margin-top: 20px;
+  }
+
+  .swiper{
+    width: 100% !important;
+  }
+  .latest-traveling-news{
+    margin-top: 100px !important;
+  }
+  .news-slider{
+    width: 100% !important;
+    margin: 0 !important;
+    .first-lol , .second-lol , .third-lol{
+        width: 100% !important;
+        margin: 10px !important;
+    }
+    .swiper-slide{
+      width: 420px !important;
+    }
+  }
+
+  .contact-us-footer  , .about-us-footer{
+     text-align: unset !important;
+     padding: 0 !important;
+     h3{
+      padding: 0;
+      text-align: unset !important;
+     }
+
+     .short-line{
+      display: none;
+     }
+  }
+  .footer-p-about{
+    width: 100% !important;
+  }
+.ask-quesstions-footer{
+  text-align: unset !important;
+  .footer-form input{
+    width: 100% !important;
+  }
+}
 }

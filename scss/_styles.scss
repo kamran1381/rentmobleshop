@@ -173,6 +173,7 @@ header {
                 right: 231px;
                 font-size: 36px;
                 margin-left: 50px;
+          
             }
 
             .toggler {
@@ -182,6 +183,7 @@ header {
                 position: absolute;
                 top: 40px;
                 right: 250px;
+                z-index: 600;
             }
 
             .nav-item {
@@ -496,8 +498,6 @@ main {
 
     .luxury-apartment {
         .luxury-container {
-            grid-template-columns: repeat(3, 12px);
-            grid-template-rows: repeat(3, auto);
             padding: 10vmin 20vmin;
             .long-line {
                 width: 30%;
@@ -836,12 +836,13 @@ main {
 
                     .first-lol {
                         margin-right: 10px;
-                        width: 33.3% !important;
+                        width: 33.3%;
                         height: 400px;
                         background-image: url('../images/New\ folder/news-slider/909cad51a01f495d8210d8bb3ef274ae.jpg');
                         background-repeat: no-repeat;
                         background-position: center;
                         background-size: cover;
+                        object-fit: cover;
                         position: relative;
 
                         .slider-text-body {
@@ -863,7 +864,7 @@ main {
 
                     .second-lol {
                         margin-right: 10px;
-                        width: 33.3% !important;
+                        width: 33.3%;
                         height: 400px;
                         background-image: url('../images/New\ folder/news-slider/2.jpg');
                         background-repeat: no-repeat;
@@ -890,7 +891,7 @@ main {
 
                     .third-lol {
                         margin-right: 10px;
-                        width: 33.3% !important;
+                        width: 33.3% ;
                         height: 400px;
                         background-image: url('../images/New\ folder/news-slider/5.jpg');
                         background-repeat: no-repeat;
@@ -948,7 +949,6 @@ footer {
     margin-top: 100px;
     
     .footer-content {
-        width: 100%;
         height: 680px;
         background-color: rgb(7, 8, 18);
        direction: rtl;
