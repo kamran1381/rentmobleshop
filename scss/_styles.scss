@@ -386,24 +386,34 @@ main {
         .best-seller-content {
             max-width: 1300px;
             height: 470px;
+            width: 100%;
+            padding: 40px  0;
             overflow: hidden;
             background-color: rgba(44, 47, 49, 0.146);
 
-            .swiper-wrapper {
-                width: 100%;
-                display: flex;
+            .swiper-wrapper {             
+                 display: flex;
                 flex-direction: row;
-
-
+                margin-right: 30px;
                 .swiper-slide {
-                    width: 430px !important;
-
-                    // padding: 0px 6px;
-                    // margin-top: 20px;
+                    margin-right: 10px;
+            
                     .card {
-                        width: 26rem;
+                         width: auto;
                         height: 460px;
+                        margin-right: 20px;
                         border-radius: 10px;
+                          
+
+                        .card-body{ 
+                            background-color: #9a9aa1;                         
+                            .card-text {
+                                width: 100%;  
+                                 justify-content: center;
+                                 align-items: center;                  
+                            }
+                          
+                        }
                     }
                 }
 
@@ -420,13 +430,13 @@ main {
 
             .swiper-button-prev {
                 position: relative !important;
-                bottom: 200px;
+                bottom: 177px;
             }
 
             .swiper-button-next {
                 position: relative !important;
                 float: right;
-                bottom: 250px;
+                bottom: 200px;
             }
 
             .card-body {
@@ -523,9 +533,9 @@ main {
             }
 
             .card {
-                height: 425px;
                  margin: 10px;
                 .card-body {
+                    background-color: #9A9AA1;
                     .right-side-text {
                          width: 50%;
                          float: right;
@@ -835,8 +845,8 @@ main {
                 .swiper-wrapper {
 
                     .first-lol {
-                        margin-right: 10px;
-                        width: 33.3%;
+                        // margin-right: 10px;
+                        // width: auto !important;
                         height: 400px;
                         background-image: url('../images/New\ folder/news-slider/909cad51a01f495d8210d8bb3ef274ae.jpg');
                         background-repeat: no-repeat;
@@ -863,8 +873,8 @@ main {
                     }
 
                     .second-lol {
-                        margin-right: 10px;
-                        width: 33.3%;
+                        // margin-right: 10px;
+                        // width: auto !important;
                         height: 400px;
                         background-image: url('../images/New\ folder/news-slider/2.jpg');
                         background-repeat: no-repeat;
@@ -890,8 +900,8 @@ main {
                     }
 
                     .third-lol {
-                        margin-right: 10px;
-                        width: 33.3% ;
+                        // margin-right: 10px;
+                        // width: auto  !important;
                         height: 400px;
                         background-image: url('../images/New\ folder/news-slider/5.jpg');
                         background-repeat: no-repeat;
@@ -947,9 +957,7 @@ main {
 
 footer {
     margin-top: 100px;
-    
     .footer-content {
-        height: 680px;
         background-color: rgb(7, 8, 18);
        direction: rtl;
         .footer-heading {

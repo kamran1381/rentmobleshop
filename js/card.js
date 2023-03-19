@@ -5,11 +5,25 @@ const swiper = new Swiper('.mySwiper', {
   slidesPerGroup: 3,
   loop: true,
   loopFillGroupWithBlank: true,
- 
+  centerSlide: "true",
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
+
+  breakpoints: {
+    0: {
+      slidesPerView: 1,
+    },
+    520: {
+      slidesPerView: 2,
+    } ,
+    768: {
+      slidesPerView: 3,
+    }
+  }
+  
+
 
 });
 
@@ -30,9 +44,22 @@ const newsslider = new Swiper('#the-swiper', {
   slidesPerGroup: 3,
   loop: true,
   loopFillGroupWithBlank: true,
- 
+  centerSlide: "true",
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
+
+
+  breakpoints: {
+    0: {
+      slidesPerView: 1,
+    },
+    520: {
+      slidesPerView: 2,
+    } ,
+    768: {
+      slidesPerView: 3,
+    }
+  }
 });

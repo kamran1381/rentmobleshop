@@ -1,211 +1,303 @@
-@media(max-width:1400px){
-   .secrect-nav {
-     .nav-link{
+@media(max-width:1400px) {
+  .secrect-nav {
+    .nav-link {
+      font-size: 15px !important;
+    }
+
+    form input {
+      width: 240px;
+    }
+  }
+}
+
+@media(max-width : 1200px) {
+
+  .secrect-nav {
+
+    .nav-link {
+      font-size: 11px !important;
+
+    }
+
+    form input {
+      width: 200px !important;
+    }
+
+    form button {
+      width: 70px !important;
+      font-size: 16px;
+    }
+  }
+
+
+  .box-1 {
+    h2 {
+      font-size: 22px !important;
+    }
+
+    p {
+      font-size: 13px !important;
+    }
+  }
+
+  .middle-nav {
+    .telephone-nav-container {
+      #call-info-icon img {
+        width: 30px !important;
+      }
+
+      .number-nav,
+      .number-nav {
         font-size: 15px !important;
-     }
-     form input{
-        width: 240px;
-     }
-   }
+      }
+    }
+
+
+  }
+
+  .luxury-container {
+    padding: 0 !important;
+
+
+
+    .card-body {
+      .right-side-text h4 {
+        font-size: 18px !important;
+      }
+    }
+  }
+
+  .thenav-container .nav-link,
+  .navbar-brand {
+    font-size: 14px !important;
+  }
+
+  //    .about-us-footer{
+
+  //    }
 }
 
-@media(max-width : 1200px){
 
-    .secrect-nav {
-     
-        .nav-link{
-           font-size: 11px !important;
+@media(max-width: 992px) {
+  .secrect-nav {
+    display: none;
+  }
 
-        }
-        form input{
-           width: 200px !important;
-        }
+  .img-1 img {
+    width: 166px !important;
+  }
 
-        form button{
-            width: 70px !important;
-            font-size: 16px;
-        }
-      }  
-      
+  .img-2 img {
+    width: 98px !important;
+  }
 
-      .box-1{
-           h2{
-            font-size: 22px !important;
-           }
-           p{
-            font-size: 13px !important;
-           }
-      }
-      
-      .middle-nav {
-        .telephone-nav-container{
-            #call-info-icon img{
-                width: 30px !important;
-            }
-            .number-nav , .number-nav{
-                font-size: 15px !important;
-            }
-        }
+  .box-1 {
+    height: 210px !important;
+  }
 
-      
-      }
+  .customer-pic {
+    display: flex;
+    justify-content: center;
+  }
 
-       .luxury-container{
-         padding: 0 !important;
-         .card{
-            height: 530px !important;
-         }
-        .card-body{
-            .right-side-text h4{
-             font-size: 18px !important;
-            }
-        }
-       }
 
-       .thenav-container .nav-link , .navbar-brand{
-        font-size: 14px !important;
-       }
-    //    .about-us-footer{
+
+  .last-footer {
+    display: none;
+  }
+
+  .best-seller-content {
+    .card {
+      height: 341px !important;
+      .card-text {
+        display: flex;
+        flex-direction: column-reverse !important;
+        line-height: 0 !important;
+        .left-side-text{
+          margin: 0 !important;
           
-    //    }
+        }
+        .room-price span{
+         font-size: 12px !important;
+        }
+        .right-side-text{
+          padding: 0 !important;
+          .location-text h4{
+           font-size: 18px !important;
+            
+           }
+           .room-count{
+            li{
+              font-size: 10px !important;
+            }
+           }
+        }
+       
+      }
+    }
+  }
 }
 
-
-@media(max-width: 992px){
-    .secrect-nav{
-        display: none;
-    }
-    .img-1 img{
-        width: 166px !important;
-    }
-
-    .img-2 img {
-        width: 98px !important;
-    }
-    .box-1{
-        height: 210px !important;
-    } 
-
-    .customer-pic{
-       display: flex;
-       justify-content: center;
-    }
-
-    .footer-content{
-        height: 1400px !important;
-     }
-    
-     .last-footer{
-        display: none;
-     }
-}
-
-@media (min-width : 992px){
-    .main-nav{
-        display: none;
-    }
+@media (min-width : 992px) {
+  .main-nav {
+    display: none;
+  }
 
 }
 
 
-@media(max-width: 768px){
- .telephone-nav-container{
+@media(max-width: 768px) {
+  .telephone-nav-container {
     display: none !important;
- }   
+  }
 
- .left-corner-top{
+  .left-corner-top {
     position: relative !important;
     top: 70px !important;
-    left: 4px  !important;
- }
+    left: 4px !important;
+  }
+
 
 
 }
 
 
 
-@media(max-width: 576px){
-  .header-background {
-   margin: 0 !important;
-   width: 100% !important;
-   padding: 0 !important;
-   background-size: auto !important;
+@media(max-width: 576px) {
+  .right-sub-text {
+    font-size: 12px !important;
   }
-  .left-sub-number  {
+  .About-us-text {
+    h3{
+      font-size: 19px !important;
+    }
+
+    p{
+      font-size: 17px !important;
+    }
+  }
+  .about-us-photo{
+    overflow: hidden !important;
+  }
+  
+  .header-background {
+    margin: 0 !important;
+    width: 100% !important;
+    padding: 0 !important;
+    background-size: auto !important;
+  }
+
+  .left-sub-number {
     display: none !important;
   }
-.left-side-slider {
+
+  .left-side-slider {
     margin: 0 !important;
-}
+  }
+
   .slider-container {
     width: 100% !important;
   }
 
-  .contact-heading{
-    width: 100% !important; 
+  .contact-heading {
+    width: 100% !important;
     margin-top: 20px !important;
     overflow: hidden;
-     h2{
-        font-size: 24px !important ;
-     }
-     .p-heading-last{
-        font-size: 17px !important;
-     }
-  }
 
-  .guidance-feature{
-    h3{
-        font-size: 24px !important;
+    h2 {
+      font-size: 24px !important;
     }
-    b{
-        font-size: 21px !important;
+
+    .p-heading-last {
+      font-size: 17px !important;
     }
   }
 
-  .About-us-text , .about-us-photo {
+  .guidance-feature {
+    h3 {
+      font-size: 24px !important;
+    }
+
+    b {
+      font-size: 21px !important;
+    }
+  }
+
+  .About-us-text,
+  .about-us-photo {
     margin: 0 !important;
   }
-  .luxury-headiing{
-    margin-top: 20px;
-  }
 
-  .swiper{
-    width: 100% !important;
+  .luxury-headiing {
+    margin-top: 20px;
+    h2{
+      font-size: 21px !important;
+    }
   }
-  .latest-traveling-news{
+  .best-sell-heading{
+    margin-left: 30px !important;
+    font-size: 20px !important;
+  }
+  .customer-container{
+    .swiper {
+      width: 100% !important;
+    }
+    .card-text-material{
+      padding: 0 10px !important;
+    }
+    .swiper-button-prev , .swiper-button-next{
+       margin: 10px -10px !important; 
+    }
+  }
+ 
+
+  .latest-traveling-news {
     margin-top: 100px !important;
   }
-  .news-slider{
+
+  .news-slider {
     width: 100% !important;
     margin: 0 !important;
-    .first-lol , .second-lol , .third-lol{
-        width: 100% !important;
-        margin: 10px !important;
+
+    .first-lol,
+    .second-lol,
+    .third-lol {
+      width: 100% !important;
+      // margin: 10px !important;
     }
-    .swiper-slide{
-      width: 420px !important;
-    }
+
+    // .swiper-slide {
+    //   width: 420px !important;
+    // }
   }
 
-  .contact-us-footer  , .about-us-footer{
-     text-align: unset !important;
-     padding: 0 !important;
-     h3{
+  .contact-us-footer,
+  .about-us-footer {
+    text-align: unset !important;
+    padding: 0 !important;
+
+    h3 {
       padding: 0;
       text-align: unset !important;
-     }
+    }
 
-     .short-line{
+    .short-line {
       display: none;
-     }
+    }
   }
-  .footer-p-about{
-    width: 100% !important;
+
+  .about-us-footer , .contact-us-footer ,.ask-quesstions-footer{
+    margin-bottom: 20px !important;
   }
-.ask-quesstions-footer{
-  text-align: unset !important;
-  .footer-form input{
-    width: 100% !important;
+  .footer-p-about {
+    width: auto !important;
   }
-}
+
+  .ask-quesstions-footer {
+    text-align: unset !important;
+
+    .footer-form input {
+      width: 100% !important;
+    }
+  }
 }
