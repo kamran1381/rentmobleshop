@@ -58,6 +58,7 @@
   .luxury-container {
     padding: 0 !important;
 
+  
 
 
     .card-body {
@@ -106,35 +107,9 @@
     display: none;
   }
 
-  .best-seller-content {
-    .card {
-      height: 341px !important;
-      .card-text {
-        display: flex;
-        flex-direction: column-reverse !important;
-        line-height: 0 !important;
-        .left-side-text{
-          margin: 0 !important;
-          
-        }
-        .room-price span{
-         font-size: 12px !important;
-        }
-        .right-side-text{
-          padding: 0 !important;
-          .location-text h4{
-           font-size: 18px !important;
-            
-           }
-           .room-count{
-            li{
-              font-size: 10px !important;
-            }
-           }
-        }
-       
-      }
-    }
+  .About-us-text,
+  .about-us-photo {
+    margin: 0 !important;
   }
 }
 
@@ -223,10 +198,6 @@
     }
   }
 
-  .About-us-text,
-  .about-us-photo {
-    margin: 0 !important;
-  }
 
   .luxury-headiing {
     margin-top: 20px;

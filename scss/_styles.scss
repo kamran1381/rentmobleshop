@@ -327,23 +327,8 @@ main {
         }
 
         .about-us-photo {
-            height: 500px;
+            // height: 500px;
             margin-right: 69px;
-
-            //    background-color:var(--bs-warning) ;
-            .img-container-lol {
-                position: relative;
-                bottom: -5px;
-                background-color: #CAA038;
-                height: 430px;
-                width: 400px;
-            }
-
-            .image-about-us {
-                position: relative;
-                bottom: 400px;
-                right: 24px;
-            }
 
 
 
@@ -385,9 +370,10 @@ main {
 
         .best-seller-content {
             max-width: 1300px;
-            height: 470px;
+            // height: 470px;
+            height: auto;
             width: 100%;
-            padding: 40px  0;
+            padding: 20px  0;
             overflow: hidden;
             background-color: rgba(44, 47, 49, 0.146);
 
@@ -399,8 +385,6 @@ main {
                     margin-right: 10px;
             
                     .card {
-                         width: auto;
-                        height: 460px;
                         margin-right: 20px;
                         border-radius: 10px;
                           
@@ -408,9 +392,11 @@ main {
                         .card-body{ 
                             background-color: #9a9aa1;                         
                             .card-text {
-                                width: 100%;  
-                                 justify-content: center;
-                                 align-items: center;                  
+                                display: flex;
+                                flex-direction: column-reverse;
+                                justify-content: center;
+                                align-items: center;           
+                                line-height: 0;     
                             }
                           
                         }
@@ -533,13 +519,18 @@ main {
             }
 
             .card {
-                 margin: 10px;
                 .card-body {
                     background-color: #9A9AA1;
+                    .card-text{
+                        display: flex;
+                        justify-content: center;
+                        flex-direction: column-reverse;
+                        align-items:center ;
+                        line-height: 0;
+                    }
+                   
                     .right-side-text {
-                         width: 50%;
-                         float: right;
-                       
+                         
                         .location-text h4 {
                             font-size: 1.6em;
                             padding: 3px 3px;
@@ -555,12 +546,6 @@ main {
                                 }
                             }
                         }
-                    }
-
-                    .left-side-text {
-                        margin-top: 20px;
-                        width: 50%;
-                        float: left;
                     }
                 }
 
@@ -662,9 +647,12 @@ main {
 
             .slider-container {
                 .swiper-slide {
-                    img {
-                        padding-bottom: 0;
-                    }
+                  .customer-pic {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    // flex-direction: column;
+                  }
 
                     .card-text-material {
                         color: $color-white;
@@ -733,10 +721,9 @@ main {
         }
 
         .right-side-contact {
-
+         text-align: end;
             .contact-heading {
-                width: 40rem;
-                text-align: end;
+              
 
                 h2 {
                     font-size: 30px;

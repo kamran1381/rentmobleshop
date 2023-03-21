@@ -313,22 +313,7 @@ main .About .About-us-text .short-line {
 }
 
 main .About .about-us-photo {
-  height: 500px;
   margin-right: 69px;
-}
-
-main .About .about-us-photo .img-container-lol {
-  position: relative;
-  bottom: -5px;
-  background-color: #CAA038;
-  height: 430px;
-  width: 400px;
-}
-
-main .About .about-us-photo .image-about-us {
-  position: relative;
-  bottom: 400px;
-  right: 24px;
 }
 
 main .best-seller-apartment {
@@ -372,9 +357,9 @@ main .best-seller-apartment .short-line {
 
 main .best-seller-apartment .best-seller-content {
   max-width: 1300px;
-  height: 470px;
+  height: auto;
   width: 100%;
-  padding: 40px  0;
+  padding: 20px  0;
   overflow: hidden;
   background-color: rgba(44, 47, 49, 0.146);
 }
@@ -395,8 +380,6 @@ main .best-seller-apartment .best-seller-content .swiper-wrapper .swiper-slide {
 }
 
 main .best-seller-apartment .best-seller-content .swiper-wrapper .swiper-slide .card {
-  width: auto;
-  height: 460px;
   margin-right: 20px;
   border-radius: 10px;
 }
@@ -406,13 +389,20 @@ main .best-seller-apartment .best-seller-content .swiper-wrapper .swiper-slide .
 }
 
 main .best-seller-apartment .best-seller-content .swiper-wrapper .swiper-slide .card .card-body .card-text {
-  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  line-height: 0;
 }
 
 main .best-seller-apartment .best-seller-content .swiper-button-prev,
@@ -513,17 +503,25 @@ main .luxury-apartment .luxury-container .luxury-headiing {
   text-align: end;
 }
 
-main .luxury-apartment .luxury-container .card {
-  margin: 10px;
-}
-
 main .luxury-apartment .luxury-container .card .card-body {
   background-color: #9A9AA1;
 }
 
-main .luxury-apartment .luxury-container .card .card-body .right-side-text {
-  width: 50%;
-  float: right;
+main .luxury-apartment .luxury-container .card .card-body .card-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 0;
 }
 
 main .luxury-apartment .luxury-container .card .card-body .right-side-text .location-text h4 {
@@ -534,12 +532,6 @@ main .luxury-apartment .luxury-container .card .card-body .right-side-text .loca
 main .luxury-apartment .luxury-container .card .card-body .right-side-text .room-count ul li {
   display: inline-block;
   margin-right: 10px;
-}
-
-main .luxury-apartment .luxury-container .card .card-body .left-side-text {
-  margin-top: 20px;
-  width: 50%;
-  float: left;
 }
 
 main .luxury-apartment .all-untits {
@@ -636,8 +628,16 @@ main .customer-thoughts .customer-container .customer-heading .short-line {
   background-color: #CAA038;
 }
 
-main .customer-thoughts .customer-container .slider-container .swiper-slide img {
-  padding-bottom: 0;
+main .customer-thoughts .customer-container .slider-container .swiper-slide .customer-pic {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 main .customer-thoughts .customer-container .slider-container .swiper-slide .card-text-material {
@@ -695,8 +695,7 @@ main .contact-us .left-side-slider .short-line {
   z-index: 200;
 }
 
-main .contact-us .right-side-contact .contact-heading {
-  width: 40rem;
+main .contact-us .right-side-contact {
   text-align: end;
 }
 
@@ -1128,33 +1127,9 @@ footer .last-footer .thenav-container .navbar .navbar-brand:hover {
   .last-footer {
     display: none;
   }
-  .best-seller-content .card {
-    height: 341px !important;
-  }
-  .best-seller-content .card .card-text {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical !important;
-    -webkit-box-direction: reverse !important;
-        -ms-flex-direction: column-reverse !important;
-            flex-direction: column-reverse !important;
-    line-height: 0 !important;
-  }
-  .best-seller-content .card .card-text .left-side-text {
+  .About-us-text,
+  .about-us-photo {
     margin: 0 !important;
-  }
-  .best-seller-content .card .card-text .room-price span {
-    font-size: 12px !important;
-  }
-  .best-seller-content .card .card-text .right-side-text {
-    padding: 0 !important;
-  }
-  .best-seller-content .card .card-text .right-side-text .location-text h4 {
-    font-size: 18px !important;
-  }
-  .best-seller-content .card .card-text .right-side-text .room-count li {
-    font-size: 10px !important;
   }
 }
 
@@ -1219,10 +1194,6 @@ footer .last-footer .thenav-container .navbar .navbar-brand:hover {
   }
   .guidance-feature b {
     font-size: 21px !important;
-  }
-  .About-us-text,
-  .about-us-photo {
-    margin: 0 !important;
   }
   .luxury-headiing {
     margin-top: 20px;
