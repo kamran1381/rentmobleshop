@@ -278,7 +278,6 @@ header {
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
-        margin-right: 10px;
     }
 
 
@@ -589,7 +588,7 @@ main {
 
                 .box-1 {
                     background-color: #070812;
-                    height: 200px;
+                    height:100%;
                     padding: 2vmin 6vmin
                 }
 
@@ -1000,7 +999,6 @@ footer {
             }
 
             .contact-us-footer {
-                // width: 23rem;
                 text-align: start;
                  h3{
                     text-align: start;
@@ -1023,6 +1021,9 @@ footer {
                             direction: rtl;
 
                             color: #999999;
+                            padding-right: 5px;
+                        }
+                        img{
                             padding-right: 10px;
                         }
                     }

@@ -260,7 +260,6 @@ header .header-background {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  margin-right: 10px;
 }
 
 main {
@@ -571,7 +570,7 @@ main .our-services .services-container .service-boxes .short-line {
 
 main .our-services .services-container .service-boxes .box-1 {
   background-color: #070812;
-  height: 200px;
+  height: 100%;
   padding: 2vmin 6vmin;
 }
 
@@ -976,6 +975,10 @@ footer .footer-content .footer-body .contact-us-footer ul li {
 footer .footer-content .footer-body .contact-us-footer ul li span {
   direction: rtl;
   color: #999999;
+  padding-right: 5px;
+}
+
+footer .footer-content .footer-body .contact-us-footer ul li img {
   padding-right: 10px;
 }
 
@@ -1112,9 +1115,6 @@ footer .last-footer .thenav-container .navbar .navbar-brand:hover {
   }
   .img-2 img {
     width: 98px !important;
-  }
-  .box-1 {
-    height: 210px !important;
   }
   .customer-pic {
     display: -webkit-box;
